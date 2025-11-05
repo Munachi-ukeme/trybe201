@@ -1,0 +1,239 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+/* first head */
+
+.first-head{
+    display: flex;
+    background: linear-gradient(90deg, #3648eb 0%, #f44 100%);
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100rem;
+    height: 100px;
+}
+
+.head-childs{
+    display: flex;
+    gap: 50px; 
+    align-items: center;  
+}
+
+.head-childs h1{
+      color: white;
+      font-size: 30px;
+}
+
+
+.event{
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    transition: all 200ms ease-in-out;
+}
+
+.event:hover{
+    transform: scale(1.1);
+}
+
+.toggle{
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    transition: all 200ms ease-in-out;
+}
+
+.toggle:hover{
+    transform: scale(1.1);
+}
+
+/* second head */
+
+.second-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+
+
+.join button{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(6, 6, 136);
+    transition: all 200ms ease-in-out;
+}
+
+.join button:hover{
+    transform: scale(1.1);
+}
+
+/* first body */
+.first-body{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+}
+
+.first-body button{
+    border-radius: 10px;
+    background-color: rgb(6, 6, 120);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    transition: all 200ms ease-in-out;
+}
+
+.first-body button:hover{
+    transform: scale(1.1);
+}
+
+/* second body */
+.second-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.second-body-left h2{
+    font-size: 45px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.second-body-left p{
+    font-size: 20px;
+    line-height: 1.6;
+    padding-left: 80px;
+}
+
+.second-body-left button{
+    margin-top: 25px;
+    margin-left: 80px;
+    height: 50px;
+    width: 230px;
+    background-color: rgb(10, 10, 119);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+}
+
+.second-body-left button:hover{
+    transform: scale(1.1);
+}
+
+.second-body-right{
+    padding-right: 90px;
+}
+
+/* third body */
+.third-body-name{
+    text-align: center;
+    font-size: 35px;
+}
+
+.third-body-imgs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.imgs{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 410px;
+    max-width: 320px;
+}
+
+.imgs h3{
+    padding-left: 5px;
+}
+
+.imgs p{
+    padding-left: 5px;
+    padding-bottom: 25px;
+}
+
+.imgs a{
+    text-decoration: none;
+    border: 2px solid;
+    margin-left: 5px;
+    background-color: rgb(6, 6, 109);
+    border-radius: 25px;
+    color: white;
+    padding: 12px 20px 12px 20px;
+}
+
+.imgs a:hover{
+    background-color: #f44;
+}
+
+/* footer */
+.foot{
+    background-color: rgb(10, 10, 160);
+    margin-top: 70px;
+}
+
+.head-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.footers{
+    color: white;
+    font-size: 18px;
+}
+
+.footers a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding-top: 15px;
+    transition: all 200ms ease-in-out;
+    font-size: 18px;
+}
+
+.footers a:hover{
+    color: gray;
+    transform: scale(1.1);
+}
