@@ -119,8 +119,8 @@ box-sizing: border-box;
    background-color: #c9c9c9;
     border-radius: 10px;
     margin-bottom: 65px;
-    height: 480px;
-    max-width: 451px;
+    height: auto;
+    width: 100%;
 }
 
 .each-pics h1{
